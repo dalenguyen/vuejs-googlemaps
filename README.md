@@ -2,6 +2,8 @@
 
 This is a simple integration between Vuejs and Google Maps API
 
+Demo: https://vuejs-googlemaps.herokuapp.com/
+
 # Clone this project
 
 ```

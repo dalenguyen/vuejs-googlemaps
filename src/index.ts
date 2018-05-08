@@ -6,10 +6,11 @@ let v = new Vue({
     template: `
         <div>
           <h1>VueJS GooleMap Component</h1>
+          <a href="https://github.com/dalenguyen/vuejs-googlemaps">Github</a>
           <google-map-component name="example" />
         </div>
     `,
-    data: { },
+    data: {},
     components: {
         GoogleMapComponent
     }
