@@ -2,8 +2,8 @@
   "name": "typescript-vue-starter",
   "version": "1.0.0",
   "private": true,
-  "description": "",
-  "main": "index.html",
+  "description": "Vuejs + Google Maps",
+  "main": "index.php",
   "scripts": {
     "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
