@@ -6,11 +6,13 @@
 
 <script lang="ts">
 import Vue from "vue";
+declare var google: any
 
 export default Vue.extend({
   name: 'google-map',
   props: ['name'],
   data: function () {
+    let markerArray:any[] = [];
     return {
       mapName: this.name + "-map",
       markerCoordinates: [{
@@ -25,7 +27,7 @@ export default Vue.extend({
       }],
       map: null,
       bounds: null,
-      markers: []
+      markers: markerArray
     }
   },
   mounted: function () {
