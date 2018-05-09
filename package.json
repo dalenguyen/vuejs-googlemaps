@@ -6,7 +6,8 @@
   "main": "index.php",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "harp server --port $PORT"
   },
   "keywords": [],
   "author": {
@@ -18,7 +19,8 @@
     "vue": "^2.5.2",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^6.0.0",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "harp": "*"
   },
   "devDependencies": {
     "css-loader": "^0.28.1",
