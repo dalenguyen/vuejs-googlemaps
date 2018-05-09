@@ -5,7 +5,7 @@
   "description": "Vuejs + Google Maps",
   "main": "index.php",
   "scripts": {
-    "start": "webpack",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
